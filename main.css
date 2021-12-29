@@ -223,7 +223,7 @@ select {
 }
 
 .features__feedback-left {
-    margin-right: 10px;
+    margin-right: 28px;
 }
 
 .features__feedback-left h2 {
@@ -248,18 +248,19 @@ select {
     padding-left: 40px;
     color: white;
     border-radius: 25px;
-}
-
-.feature__box h3 {
-    margin-top: 0px;
-    margin-bottom: 20px;
-    font-size: 48px;
+    height: 180px;
 }
 
 .features__savings-box {
     background-color: #dc5e26;
     box-shadow: 0px 6px 0 rgb(221 95 38 / 20%);
     margin-right: 30px;
+}
+
+.features__feedback-right h3 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 48px;
 }
 
 .features__rate-box {
@@ -382,6 +383,12 @@ footer {
         padding-left: 20px;
         padding-right: 20px;
     }
+    .features__feedback-left {
+        margin-right: 10px;
+    }
+    .features__box {
+        height: auto;
+    }
     .form {
         padding-left: 20px;
         padding-right: 20px;
@@ -456,7 +463,10 @@ footer {
         flex-direction: column;
         align-items: initial;
     }
-    .features__box h3 {
+    .features__box {
+        height: auto;
+    }
+    .features__feedback-right h3 {
         font-size: 36px;
     }
     .features__savings-box {
