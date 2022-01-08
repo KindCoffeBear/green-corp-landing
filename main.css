@@ -42,6 +42,14 @@ button {
     padding: 15px;
 }
 
+.orb-canvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
 .about {
     display: flex;
     justify-content: space-around;
@@ -52,13 +60,6 @@ button {
     background-position: center;
     background-size: cover;
     position: relative;
-}
-
-.orb-canvas {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
 }
 
 .about__image {
