@@ -51,6 +51,14 @@ button {
     background: url("img/back.png") no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+
+.orb-canvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
 }
 
 .about__image {
