@@ -400,11 +400,14 @@ footer {
         padding-left: 20px;
         padding-right: 20px;
     }
+    .cards {
+        grid-gap: 15px;
+    }
     .features__feedback-left {
         margin-right: 10px;
     }
     .features__box {
-        height: auto;
+        height: 300px;
     }
     .form {
         padding-left: 20px;
